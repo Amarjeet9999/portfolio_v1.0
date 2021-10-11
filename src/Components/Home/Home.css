@@ -1,0 +1,46 @@
+/** @format */
+
+.home {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.home .content h3 {
+  font-size: 7rem;
+  color: var(--black);
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.home .content p {
+  font-size: 2rem;
+  color: var(--green);
+  padding-bottom: 0.5rem;
+}
+
+.home .share {
+  position: relative;
+  top: 10rem;
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+  padding: 1rem;
+}
+
+.home .share a {
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  box-shadow: var(--box-shadow);
+  margin: 0.5rem;
+  font-size: 2rem;
+  color: var(--black);
+  border-radius: 0.5rem;
+}
+
+.home .share a:hover {
+  box-shadow: var(--box-shadow-inset);
+  color: var(--green);
+}
