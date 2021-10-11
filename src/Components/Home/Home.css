@@ -6,13 +6,14 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  height: 100vh;
 }
 
 .home .content h3 {
-  font-size: 7rem;
+  font-size: 6rem;
   color: var(--black);
   line-height: 1.1;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .home .content p {

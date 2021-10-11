@@ -13,7 +13,7 @@ export const SideBar = () => {
           <User className='user'>
             <img src='/Images/pp.jpg' alt='' />
             <h3>Amarjeet Kumar</h3>
-            <p>front-end developer</p>
+            <p>Full Stack Developer</p>
           </User>
 
           <Navbar className='navbar'>
@@ -22,35 +22,42 @@ export const SideBar = () => {
               className='link'
               hashSpy={true}
               to='home'>
-              Home
+              HOME
             </Link>
             <Link
               activeclassName='active'
               className='link'
               hashSpy={true}
               to='about'>
-              About
+              ABOUT
             </Link>
-            <Link
+            {/* <Link
               activeclassName='active'
               className='link'
               hashSpy={true}
               to='services'>
               Services
+            </Link> */}
+            <Link
+              activeclassName='active'
+              className='link'
+              hashSpy={true}
+              to='resume'>
+              RESUME
             </Link>
             <Link
               activeclassName='active'
               className='link'
               hashSpy={true}
               to='portfolio'>
-              Projects
+              PROJECTS
             </Link>
             <Link
               activeclassName='active'
               className='link'
               hashSpy={true}
               to='contact'>
-              Contact
+              CONTACT
             </Link>
           </Navbar>
         </Header>

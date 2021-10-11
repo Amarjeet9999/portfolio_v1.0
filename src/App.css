@@ -39,8 +39,8 @@ body {
 body.active {
   --black: #fff;
   --light-color: #ddd;
-  --bg-color: #222;
-  --border: 0.1rem solid rgba(0, 0, 0, 0.4);
+  --bg-color: #090808;
+  --border: 0.1rem solid gray;
   --box-shadow: 0.4rem 0.4rem 1rem #111, -0.4rem -0.4rem 1rem #333;
   --box-shadow-inset: 0.4rem 0.4rem 1rem #111 inset,
     -0.4rem -0.4rem 1rem #333 inset;
