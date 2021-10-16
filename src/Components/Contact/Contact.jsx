@@ -8,18 +8,15 @@ import { Party } from "../Home/Home";
 export const Contact = () => {
   return (
     <>
-      <Party className='particle-con'>
-        <Particles />
-      </Party>
       <section className='contact' id='contact'>
         <h1 className='heading'>
-          <span>contact</span> me{" "}
+          <span>Contact</span> me{" "}
         </h1>
 
-        <form action=''>
-          <input type='text' placeholder='your name' className='box' />
-          <input type='email' placeholder='your email' className='box' />
-          <input type='text' placeholder='subject' className='box' />
+        <form action='' onSubmit={(e) => e.preventDefault()}>
+          <input type='text' placeholder='Your Name' className='box' />
+          <input type='email' placeholder='Your Email' className='box' />
+          <input type='text' placeholder='Subject' className='box' />
           <textarea
             name=''
             className='box'
@@ -27,7 +24,7 @@ export const Contact = () => {
             id=''
             cols='30'
             rows='10'></textarea>
-          <input type='submit' value='send message' className='btn' />
+          <input type='submit' value='Send Message' className='btn' />
         </form>
       </section>
     </>

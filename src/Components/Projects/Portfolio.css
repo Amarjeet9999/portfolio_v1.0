@@ -56,3 +56,7 @@
   height: 40px;
   width: 40px;
 }
+
+.icons-git img {
+  color: green !important;
+}

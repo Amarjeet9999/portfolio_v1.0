@@ -5,67 +5,62 @@ import { Link } from "react-scroll";
 import styled from "styled-components";
 
 export const SideBar = () => {
-  const [show, setShow] = React.useState(true);
+  const btn = React.useRef();
   return (
     <>
-      {show && (
-        <Header className='header active'>
-          <User className='user'>
-            <img src='/Images/pp.jpg' alt='' />
-            <h3>Amarjeet Kumar</h3>
-            <p>Full Stack Developer</p>
-          </User>
+      <Header ref={btn} className='header active'>
+        <User className='user'>
+          <img src='/Images/pp.jpg' alt='' />
+          <h3>Amarjeet Kumar</h3>
+          <p>Full Stack Developer</p>
+        </User>
 
-          <Navbar className='navbar'>
-            <Link
-              activeclassName='active'
-              className='link'
-              hashSpy={true}
-              to='home'>
-              HOME
-            </Link>
-            <Link
-              activeclassName='active'
-              className='link'
-              hashSpy={true}
-              to='about'>
-              ABOUT
-            </Link>
-            {/* <Link
+        <Navbar className='navbar'>
+          <Link
+            activeclassName='active'
+            className='link'
+            hashSpy={true}
+            to='home'>
+            HOME
+          </Link>
+          <Link
+            activeclassName='active'
+            className='link'
+            hashSpy={true}
+            to='about'>
+            ABOUT
+          </Link>
+          {/* <Link
               activeclassName='active'
               className='link'
               hashSpy={true}
               to='services'>
               Services
             </Link> */}
-            <Link
-              activeclassName='active'
-              className='link'
-              hashSpy={true}
-              to='resume'>
-              RESUME
-            </Link>
-            <Link
-              activeclassName='active'
-              className='link'
-              hashSpy={true}
-              to='portfolio'>
-              PROJECTS
-            </Link>
-            <Link
-              activeclassName='active'
-              className='link'
-              hashSpy={true}
-              to='contact'>
-              CONTACT
-            </Link>
-          </Navbar>
-        </Header>
-      )}
-      <MenuBtn
-        onClick={() => setShow(!show)}
-        id='menu-btn'
-        className='fas fa-bars'></MenuBtn>
+          <Link
+            activeclassName='active'
+            className='link'
+            hashSpy={true}
+            to='resume'>
+            RESUME
+          </Link>
+          <Link
+            activeclassName='active'
+            className='link'
+            hashSpy={true}
+            to='portfolio'>
+            PROJECTS
+          </Link>
+          <Link
+            activeclassName='active'
+            className='link'
+            hashSpy={true}
+            to='contact'>
+            CONTACT
+          </Link>
+        </Navbar>
+      </Header>
+      )<MenuBtn id='menu-btn' className='fas fa-bars'></MenuBtn>
     </>
   );
 };
