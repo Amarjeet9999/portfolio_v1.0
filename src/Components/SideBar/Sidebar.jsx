@@ -5,9 +5,10 @@ import { Link } from "react-scroll";
 import styled from "styled-components";
 
 export const SideBar = () => {
+  const [show, setShow] = React.useState(true);
   return (
     <>
-      <Header className='header active'>
+      <Header show={show} className='header active'>
         <User className='user'>
           <img src='/Images/pp.jpg' alt='' />
           <h3>Amarjeet Kumar</h3>
@@ -33,7 +34,10 @@ export const SideBar = () => {
           </Link>
         </Navbar>
       </Header>
-      )<MenuBtn id='menu-btn' className='fas fa-bars'></MenuBtn>
+      <MenuBtn
+        onClick={() => setShow(!show)}
+        id='menu-btn'
+        className='fas fa-bars'></MenuBtn>
     </>
   );
 };
@@ -42,19 +46,15 @@ const Header = styled.div`
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 999;
+  z-index: 1;
   background: var(--bg-color);
   width: 30rem;
   border-right: var(--border);
   height: 100%;
-  padding: 2rem;
+  padding: 3rem;
   text-align: center;
   @media (max-width: 991px) {
-    left: -110%;
-    &.active {
-      left: 0%;
-      transition: 0.4s linear;
-    }
+    display: ${(props) => (props.show ? "none" : "block")};
   }
 `;
 
@@ -79,7 +79,6 @@ const User = styled.div`
 
 const Navbar = styled.div`
   padding-top: 1rem;
-
   & .link {
     display: block;
     margin: 1.5rem 0;
