@@ -47,14 +47,14 @@ export const Home = () => {
           <a
             href='https://github.com/Amarjeet9999'
             target='_blank'
+            rel='noreferrer'
             className='fab fa-github'></a>
           <a
             target='_blank'
             href='https://www.linkedin.com/in/amarjeetlinkedl/'
+            rel='noreferrer'
             className='fab fa-linkedin'></a>
-          <a to='.' className='fab fa-facebook-f'></a>
-          {/* <Link to='.' className='fab fa-linkedin'></Link>
-          <Link to='.' className='fab fa-pinterest'></Link> */}
+          <a href='.' rel='noreferrer' className='fab fa-facebook-f'></a>
         </div>
       </section>
     </>

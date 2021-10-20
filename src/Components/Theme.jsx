@@ -23,7 +23,9 @@ export const Theme = () => {
     <ThemeToggler
       onClick={themeToggele}
       id='theme-toggler'
-      className='fas fa-moon'></ThemeToggler>
+      className={
+        theme === "dark" ? "fas fa-moon" : "fas fa-sun"
+      }></ThemeToggler>
   );
 };
 

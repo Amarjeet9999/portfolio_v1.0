@@ -2,8 +2,6 @@
 
 import React from "react";
 import "./Contact.css";
-import Particles from "../Particle";
-import { Party } from "../Home/Home";
 
 export const Contact = () => {
   return (

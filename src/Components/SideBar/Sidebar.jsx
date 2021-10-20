@@ -15,40 +15,20 @@ export const SideBar = () => {
         </User>
 
         <Navbar className='navbar'>
-          <Link
-            activeclassName='active'
-            className='link'
-            hashSpy={true}
-            to='home'>
+          <Link className='link' hashSpy={true} to='home'>
             HOME
           </Link>
-          <Link
-            activeclassName='active'
-            className='link'
-            hashSpy={true}
-            to='about'>
+          <Link className='link' hashSpy={true} to='about'>
             ABOUT
           </Link>
 
-          <Link
-            activeclassName='active'
-            className='link'
-            hashSpy={true}
-            to='resume'>
+          <Link className='link' hashSpy={true} to='resume'>
             RESUME
           </Link>
-          <Link
-            activeclassName='active'
-            className='link'
-            hashSpy={true}
-            to='portfolio'>
+          <Link className='link' hashSpy={true} to='portfolio'>
             PROJECTS
           </Link>
-          <Link
-            activeclassName='active'
-            className='link'
-            hashSpy={true}
-            to='contact'>
+          <Link className='link' hashSpy={true} to='contact'>
             CONTACT
           </Link>
         </Navbar>

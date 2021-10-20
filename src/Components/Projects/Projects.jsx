@@ -32,6 +32,7 @@ export const Projects = () => {
                 <a
                   className='icons-git'
                   target='_blank'
+                  rel='noreferrer'
                   href='https://github.com/Sonamkneelam/project-unacademy'>
                   <img
                     style={{ height: "100%", width: "100%" }}
@@ -42,6 +43,7 @@ export const Projects = () => {
                 <a
                   className='icons-git'
                   target='_blank'
+                  rel='noreferrer'
                   href='https://powerful-retreat-47517.herokuapp.com/'>
                   <img
                     style={{ height: "100%", width: "100%" }}
@@ -66,6 +68,7 @@ export const Projects = () => {
                 <a
                   className='icons-git'
                   target='_blank'
+                  rel='noreferrer'
                   href='https://github.com/sarangKaliyath/Naykaa_V3.0/'>
                   <img
                     style={{ height: "100%", width: "100%" }}
@@ -76,7 +79,8 @@ export const Projects = () => {
                 <a
                   className='icons-git'
                   href='https://powerful-retreat-47517.herokuapp.com/'
-                  target='_blank'>
+                  target='_blank'
+                  rel='noreferrer'>
                   <img
                     style={{ height: "100%", width: "100%" }}
                     src='/Images/globe-solid.svg'
@@ -100,7 +104,8 @@ export const Projects = () => {
                 <a
                   className='icons-git'
                   href='https://github.com/sarangKaliyath/Nykaa_Clone/'
-                  target='_blank'>
+                  target='_blank'
+                  rel='noreferrer'>
                   <img
                     style={{ height: "100%", width: "100%" }}
                     src='/Images/github-brands.svg'
@@ -110,6 +115,7 @@ export const Projects = () => {
                 <a
                   className='icons-git'
                   target='_blank'
+                  rel='noreferrer'
                   href='https://powerful-retreat-47517.herokuapp.com/'>
                   <img
                     style={{ height: "100%", width: "100%" }}
@@ -120,27 +126,6 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-
-          {/* <div className='box'>
-          <img src='image/img-4.jpg' alt='' />
-          <div className='content'>
-            <h3>project 04</h3>
-          </div>
-        </div>
-
-        <div className='box'>
-          <img src='image/img-5.jpg' alt='' />
-          <div className='content'>
-            <h3>project 05</h3>
-          </div>
-        </div>
-
-        <div className='box'>
-          <img src='image/img-6.jpg' alt='' />
-          <div className='content'>
-            <h3>project 06</h3>
-          </div>
-        </div> */}
         </div>
       </section>
     </>
