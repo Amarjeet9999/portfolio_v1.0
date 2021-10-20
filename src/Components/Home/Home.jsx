@@ -64,4 +64,5 @@ export const Home = () => {
 export const Party = styled.div`
   position: absolute;
   height: 100%;
+  z-index: -9999;
 `;

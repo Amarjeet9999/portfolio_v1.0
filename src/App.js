@@ -18,7 +18,6 @@ function App() {
       <SideBar />
       <Home />
       <About />
-      {/* <Services /> */}
       <Resume />
       <Projects />
       <Contact />

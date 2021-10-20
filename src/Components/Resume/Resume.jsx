@@ -72,7 +72,7 @@ const Image = styled.div`
   display: flex;
   justify-content: center;
   & img {
-    width: 45%;
-    height: 90%;
+    width: 30%;
+    height: 89%;
   }
 `;

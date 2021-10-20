@@ -6,20 +6,21 @@ import { ThemeContext } from "../ThemeContext/ThemeProvider";
 
 export const Theme = () => {
   const { theme, setTheme } = React.useContext(ThemeContext);
+  
   console.log(theme);
-  // const themeToggele = () => {
-  //   if (theme === "dark") {
-  //     document.body.classList.add("active");
-  //     setTheme("active");
-  //   } else {
-  //     // document.body.classList.add("dark");
-  //     setTheme("dark");
-  //   }
-  // };
-  document.body.classList.add("active");
+
+  const themeToggele = () => {
+    if (theme === "dark") {
+      document.body.classList.add("active");
+      setTheme("active");
+    } else {
+      document.body.classList.remove("active");
+    }
+  };
+
   return (
     <ThemeToggler
-      // onClick={themeToggele}
+      onClick={themeToggele}
       id='theme-toggler'
       className='fas fa-moon'></ThemeToggler>
   );

@@ -5,10 +5,9 @@ import { Link } from "react-scroll";
 import styled from "styled-components";
 
 export const SideBar = () => {
-  const btn = React.useRef();
   return (
     <>
-      <Header ref={btn} className='header active'>
+      <Header className='header active'>
         <User className='user'>
           <img src='/Images/pp.jpg' alt='' />
           <h3>Amarjeet Kumar</h3>
@@ -30,13 +29,7 @@ export const SideBar = () => {
             to='about'>
             ABOUT
           </Link>
-          {/* <Link
-              activeclassName='active'
-              className='link'
-              hashSpy={true}
-              to='services'>
-              Services
-            </Link> */}
+
           <Link
             activeclassName='active'
             className='link'
