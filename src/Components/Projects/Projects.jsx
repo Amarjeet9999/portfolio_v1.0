@@ -120,7 +120,7 @@ export const Projects = () => {
                   className='icons-git'
                   target='_blank'
                   rel='noreferrer'
-                  href='https://powerful-retreat-47517.herokuapp.com/'>
+                  href='https://nykaa-html-css.netlify.app/'>
                   <img
                     style={{ height: "100%", width: "100%" }}
                     src='/Images/globe-solid.svg'
