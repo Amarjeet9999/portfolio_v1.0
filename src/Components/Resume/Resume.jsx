@@ -1,15 +1,10 @@
 /** @format */
 import React from "react";
 import styled from "styled-components";
-import Particles from "../Particle";
-import { Party } from "../Home/Home";
 
 export const Resume = () => {
   return (
     <>
-      <Party className='particle-con'>
-        <Particles />
-      </Party>
       <Main id='resume'>
         <h1 className='heading'>
           {" "}
@@ -40,9 +35,7 @@ export const Resume = () => {
           {" "}
           <span> </span> Tools{" "}
         </h1>
-        <Party className='particle-con'>
-          <Particles />
-        </Party>
+
         <Skills>
           <Image>
             <img src='/Images/vs.png' alt='' />

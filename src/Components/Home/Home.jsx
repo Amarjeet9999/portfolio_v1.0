@@ -5,14 +5,10 @@ import "./Home.css";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import Typewriter from "typewriter-effect";
-import Particles from "../Particle";
 
 export const Home = () => {
   return (
     <>
-      <Party className='particle-con'>
-        <Particles />
-      </Party>
       <section className='home' id='home'>
         <div className='content'>
           <h3>
@@ -62,7 +58,8 @@ export const Home = () => {
 };
 
 export const Party = styled.div`
-  position: absolute;
-  height: 100%;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
   z-index: -9999;
 `;

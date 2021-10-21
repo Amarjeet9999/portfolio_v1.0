@@ -3,15 +3,11 @@
 import React from "react";
 import "./About.css";
 import { Link } from "react-router-dom";
-import Particles from "../Particle";
-import { Party } from "../Home/Home";
 
 export const About = () => {
   return (
     <>
-      <Party className='particle-con'>
-        <Particles />
-      </Party>
+    
       <section className='about' id='about'>
         <h1 className='heading'>
           {" "}

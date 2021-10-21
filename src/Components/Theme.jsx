@@ -7,8 +7,6 @@ import { ThemeContext } from "../ThemeContext/ThemeProvider";
 export const Theme = () => {
   const { theme, setTheme } = React.useContext(ThemeContext);
 
-  console.log(theme);
-
   const themeToggele = () => {
     if (theme === "dark") {
       document.body.classList.add("active");

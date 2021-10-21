@@ -24,7 +24,7 @@ export const SideBar = () => {
           </Link>
 
           <Link className='link' hashSpy={true} to='resume'>
-            RESUME
+            SKILLS
           </Link>
           <Link className='link' hashSpy={true} to='portfolio'>
             PROJECTS

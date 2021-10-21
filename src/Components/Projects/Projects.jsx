@@ -2,15 +2,13 @@
 
 import React from "react";
 import "./Portfolio.css";
-import Particles from "../Particle";
-import { Party } from "../Home/Home";
+
+import styled from "styled-components";
 
 export const Projects = () => {
   return (
     <>
-      <Party className='particle-con'>
-        <Particles />
-      </Party>
+      
       <section className='portfolio' id='portfolio'>
         <h1 className='heading'>
           {" "}
@@ -53,12 +51,15 @@ export const Projects = () => {
                 </a>
               </div>
             </div>
+            <NewDiv>
+              <h3>Built with React, JSX and JavaScipt.</h3>
+            </NewDiv>
           </div>
 
           <div className='box'>
             <img src='/Images/navbar.png' alt='' />
             <div className='content'>
-              <h3>Nykaa Clone using backend</h3>
+              <h3>Full Stack Nykaa Clone</h3>
               <div
                 style={{
                   display: "flex",
@@ -89,12 +90,15 @@ export const Projects = () => {
                 </a>
               </div>
             </div>
+            <NewDiv>
+              <h3>Built with Ejs, Javascript, Css, Express, and MongoDb.</h3>
+            </NewDiv>
           </div>
 
           <div className='box'>
             <img src='/Images/home_page.png' alt='' />
             <div className='content'>
-              <h3>Nykaa Clone</h3>
+              <h3>Nykaa Clone Using HTML, CSS and JavsScript</h3>
               <div
                 style={{
                   display: "flex",
@@ -125,9 +129,24 @@ export const Projects = () => {
                 </a>
               </div>
             </div>
+            <NewDiv>
+              <h3>Built with only HTML, CSS and Javascript.</h3>
+            </NewDiv>
           </div>
         </div>
       </section>
     </>
   );
 };
+
+const NewDiv = styled.div`
+  height: 10rem;
+  width: 100%;
+  & h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--black);
+    text-transform: uppercase;
+    padding: 1rem 1rem;
+  }
+`;

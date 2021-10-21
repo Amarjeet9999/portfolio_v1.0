@@ -10,10 +10,15 @@ import { Projects } from "./Components/Projects/Projects";
 import { Contact } from "./Components/Contact/Contact";
 import { Created } from "./Components/Created";
 import { Theme } from "./Components/Theme";
+import Particles from "./Components/Particle";
+import { Party } from "./Components/Home/Home";
 
 function App() {
   return (
     <>
+      <Party className='particle-con'>
+        <Particles />
+      </Party>
       <Theme />
       <SideBar />
       <Home />
