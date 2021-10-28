@@ -5,43 +5,43 @@ import styled from "styled-components";
 export const Resume = () => {
   return (
     <>
-      <Main id='resume'>
-        <h1 className='heading'>
+      <Main id="resume">
+        <h1 className="heading">
           {" "}
           <span>my</span> skills{" "}
         </h1>
 
         <Skills>
           <Image>
-            <img src='/Images/html.png' alt='' />
+            <img src="/Images/html.png" alt="" />
           </Image>
           <Image>
-            <img src='/Images/css.png' alt='' />
+            <img src="/Images/css.png" alt="" />
           </Image>
           <Image>
-            <img src='/Images/js.png' alt='' />
+            <img src="/Images/js.png" alt="" />
           </Image>
           <Image>
-            <img src='/Images/react.png' alt='' />
+            <img src="/Images/react.png" alt="" />
           </Image>
           <Image>
-            <img src='/Images/redux.png' alt='' />
+            <img src="/Images/redux.png" alt="" />
           </Image>
           <Image>
-            <img src='/Images/mongo.png' alt='' />
+            <img src="/Images/mongo.png" alt="" />
           </Image>
         </Skills>
-        <h1 className='heading'>
+        <h1 className="heading">
           {" "}
           <span> </span> Tools{" "}
         </h1>
 
         <Skills>
           <Image>
-            <img src='/Images/vs.png' alt='' />
+            <img src="/Images/vs.png" alt="" />
           </Image>
           <Image>
-            <img src='/Images/postman.png' alt='' />
+            <img src="/Images/postman.png" alt="" />
           </Image>
         </Skills>
       </Main>
@@ -65,7 +65,7 @@ const Image = styled.div`
   display: flex;
   justify-content: center;
   & img {
-    width: 30%;
+    width: 24%;
     height: 89%;
   }
 `;
