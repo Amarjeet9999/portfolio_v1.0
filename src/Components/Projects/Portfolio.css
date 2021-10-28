@@ -17,7 +17,7 @@
 
 .portfolio .box-container .box img {
   height: 20rem;
-  width: 100%;
+  /* width: 100%; */
   object-fit: cover;
 }
 

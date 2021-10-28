@@ -8,17 +8,16 @@ import styled from "styled-components";
 export const Projects = () => {
   return (
     <>
-      
-      <section className='portfolio' id='portfolio'>
-        <h1 className='heading'>
+      <section className="portfolio" id="portfolio">
+        <h1 className="heading">
           {" "}
           my <span>projects</span>{" "}
         </h1>
 
-        <div className='box-container'>
-          <div className='box'>
-            <img src='/Images/unacademy.jpg' alt='' />
-            <div className='content'>
+        <div className="box-container">
+          <div className="box">
+            <img src="/Images/explorepage.png" alt="" />
+            <div className="content">
               <h3>Unacademy Clone</h3>
 
               <div
@@ -26,27 +25,30 @@ export const Projects = () => {
                   display: "flex",
                   justifyContent: "space-around",
                   width: "40%",
-                }}>
+                }}
+              >
                 <a
-                  className='icons-git'
-                  target='_blank'
-                  rel='noreferrer'
-                  href='https://github.com/Sonamkneelam/project-unacademy'>
+                  className="icons-git"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/Sonamkneelam/project-unacademy"
+                >
                   <img
                     style={{ height: "100%", width: "100%" }}
-                    src='/Images/github-brands.svg'
-                    alt=''
+                    src="/Images/github-brands.svg"
+                    alt=""
                   />
                 </a>
                 <a
-                  className='icons-git'
-                  target='_blank'
-                  rel='noreferrer'
-                  href='https://powerful-retreat-47517.herokuapp.com/'>
+                  className="icons-git"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://powerful-retreat-47517.herokuapp.com/"
+                >
                   <img
                     style={{ height: "100%", width: "100%" }}
-                    src='/Images/globe-solid.svg'
-                    alt=''
+                    src="/Images/globe-solid.svg"
+                    alt=""
                   />
                 </a>
               </div>
@@ -56,36 +58,39 @@ export const Projects = () => {
             </NewDiv>
           </div>
 
-          <div className='box'>
-            <img src='/Images/navbar.png' alt='' />
-            <div className='content'>
+          <div className="box">
+            <img src="/Images/navbar.png" alt="" />
+            <div className="content">
               <h3>Full Stack Nykaa Clone</h3>
               <div
                 style={{
                   display: "flex",
                   justifyContent: "space-around",
                   width: "40%",
-                }}>
+                }}
+              >
                 <a
-                  className='icons-git'
-                  target='_blank'
-                  rel='noreferrer'
-                  href='https://github.com/sarangKaliyath/Naykaa_V3.0/'>
+                  className="icons-git"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/sarangKaliyath/Naykaa_V3.0/"
+                >
                   <img
                     style={{ height: "100%", width: "100%" }}
-                    src='/Images/github-brands.svg'
-                    alt=''
+                    src="/Images/github-brands.svg"
+                    alt=""
                   />
                 </a>
                 <a
-                  className='icons-git'
-                  href='https://powerful-retreat-47517.herokuapp.com/'
-                  target='_blank'
-                  rel='noreferrer'>
+                  className="icons-git"
+                  href="https://n-clone.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img
                     style={{ height: "100%", width: "100%" }}
-                    src='/Images/globe-solid.svg'
-                    alt=''
+                    src="/Images/globe-solid.svg"
+                    alt=""
                   />
                 </a>
               </div>
@@ -95,36 +100,39 @@ export const Projects = () => {
             </NewDiv>
           </div>
 
-          <div className='box'>
-            <img src='/Images/home_page.png' alt='' />
-            <div className='content'>
+          <div className="box">
+            <img src="/Images/home_page.png" alt="" />
+            <div className="content">
               <h3>Nykaa Clone Using HTML, CSS and JavsScript</h3>
               <div
                 style={{
                   display: "flex",
                   justifyContent: "space-around",
                   width: "40%",
-                }}>
+                }}
+              >
                 <a
-                  className='icons-git'
-                  href='https://github.com/sarangKaliyath/Nykaa_Clone/'
-                  target='_blank'
-                  rel='noreferrer'>
+                  className="icons-git"
+                  href="https://github.com/sarangKaliyath/Nykaa_Clone/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img
                     style={{ height: "100%", width: "100%" }}
-                    src='/Images/github-brands.svg'
-                    alt=''
+                    src="/Images/github-brands.svg"
+                    alt=""
                   />
                 </a>
                 <a
-                  className='icons-git'
-                  target='_blank'
-                  rel='noreferrer'
-                  href='https://nykaa-html-css.netlify.app/'>
+                  className="icons-git"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://n-clone.netlify.app/"
+                >
                   <img
                     style={{ height: "100%", width: "100%" }}
-                    src='/Images/globe-solid.svg'
-                    alt=''
+                    src="/Images/globe-solid.svg"
+                    alt=""
                   />
                 </a>
               </div>
