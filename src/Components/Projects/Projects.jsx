@@ -73,7 +73,7 @@ export const Projects = () => {
                   className="icons-git"
                   target="_blank"
                   rel="noreferrer"
-                  href="https://github.com/sarangKaliyath/Naykaa_V3.0/"
+                  href="https://github.com/sarangKaliyath/U2_Clone"
                 >
                   <img
                     style={{ height: "100%", width: "100%" }}
@@ -83,7 +83,7 @@ export const Projects = () => {
                 </a>
                 <a
                   className="icons-git"
-                  href="https://n-clone.netlify.app/"
+                  href="https://u3-ubk.herokuapp.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -113,7 +113,7 @@ export const Projects = () => {
               >
                 <a
                   className="icons-git"
-                  href="https://github.com/sarangKaliyath/Nykaa_Clone/"
+                  href="https://github.com/sarangKaliyath/U2_Clone"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -127,7 +127,7 @@ export const Projects = () => {
                   className="icons-git"
                   target="_blank"
                   rel="noreferrer"
-                  href="https://n-clone.netlify.app/"
+                  href="https://u2ubk.netlify.app/"
                 >
                   <img
                     style={{ height: "100%", width: "100%" }}
