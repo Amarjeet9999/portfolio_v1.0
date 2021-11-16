@@ -2,8 +2,11 @@
 
 .portfolio .box-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  grid-gap: 2rem;
+  grid-gap: 2rem;
+  gap: 4rem;
+  padding: 0 8rem;
 }
 
 .portfolio .box-container .box {
@@ -17,7 +20,7 @@
 
 .portfolio .box-container .box img {
   height: 20rem;
-  /* width: 100%; */
+  width: 100%;
   object-fit: cover;
 }
 
