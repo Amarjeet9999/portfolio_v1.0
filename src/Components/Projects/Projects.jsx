@@ -96,7 +96,7 @@ export const Projects = () => {
               </div>
             </div>
             <NewDiv>
-              <h3>Built with React, JSX and JavaScript.</h3>
+              <h3>Built with React, JSX and JavaScript</h3>
             </NewDiv>
           </div>
 
@@ -180,7 +180,48 @@ export const Projects = () => {
               </div>
             </div>
             <NewDiv>
-              <h3>Built with only HTML, CSS and Javascript.</h3>
+              <h3>Built with only HTML, CSS and Javascript</h3>
+            </NewDiv>
+          </div>
+          <div className="box">
+            <img src="/Images/starWars.png" alt="" />
+            <div className="content">
+              <h3>Star Wars Search Engine</h3>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-around",
+                  width: "40%",
+                }}
+              >
+                <a
+                  className="icons-git"
+                  href="https://github.com/Amarjeet9999/starWar-Project"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    style={{ height: "100%", width: "100%" }}
+                    src="/Images/github-brands.svg"
+                    alt=""
+                  />
+                </a>
+                <a
+                  className="icons-git"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://star-wars-demo.netlify.app/"
+                >
+                  <img
+                    style={{ height: "100%", width: "100%" }}
+                    src="/Images/globe-solid.svg"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+            <NewDiv>
+              <h3>Built with only HTML, CSS and Javascript</h3>
             </NewDiv>
           </div>
         </div>
