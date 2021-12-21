@@ -99,7 +99,49 @@ export const Projects = () => {
               <h3>Built with React, JSX and JavaScript</h3>
             </NewDiv>
           </div>
-
+          <div className="box">
+            <img src="/Images/easy.png" alt="" />
+            <div className="content">
+              <h3>Easy Delivery</h3>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-around",
+                  width: "40%",
+                }}
+              >
+                <a
+                  className="icons-git"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/piyushrana00456/Easy-delivery"
+                >
+                  <img
+                    style={{ height: "100%", width: "100%" }}
+                    src="/Images/github-brands.svg"
+                    alt=""
+                  />
+                </a>
+                <a
+                  className="icons-git"
+                  href="https://easy-delivery.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    style={{ height: "100%", width: "100%" }}
+                    src="/Images/globe-solid.svg"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+            <NewDiv>
+              <h3>
+                Built with React, Redux, Javascript, Css, Express, and MongoDb.
+              </h3>
+            </NewDiv>
+          </div>
           <div className="box">
             <img src="/Images/navbar.png" alt="" />
             <div className="content">

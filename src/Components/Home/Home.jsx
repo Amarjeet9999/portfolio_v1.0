@@ -3,14 +3,13 @@
 import React from "react";
 import "./Home.css";
 import styled from "styled-components";
-import { Link } from "react-router-dom";
 import Typewriter from "typewriter-effect";
 
 export const Home = () => {
   return (
     <>
-      <section className='home' id='home'>
-        <div className='content'>
+      <section className="home" id="home">
+        <div className="content">
           <h3>
             <span>Hi, I'm </span>
             <span>Amarjeet Kumar</span>
@@ -30,27 +29,29 @@ export const Home = () => {
               }}
             />
           </p>
-          <Link
-            className='btn'
-            to='/Files/Amarjeet.pdf'
-            target='_blank'
-            download>
+          <a
+            className="btn"
+            href="https://drive.google.com/file/d/1EYxSh-yst_JJrB3fmycfWa0Q4ztExuLg/view"
+            target="_blank"
+          >
             Download CV
-          </Link>
+          </a>
         </div>
 
-        <div className='share'>
+        <div className="share">
           <a
-            href='https://github.com/Amarjeet9999'
-            target='_blank'
-            rel='noreferrer'
-            className='fab fa-github'></a>
+            href="https://github.com/Amarjeet9999"
+            target="_blank"
+            rel="noreferrer"
+            className="fab fa-github"
+          ></a>
           <a
-            target='_blank'
-            href='https://www.linkedin.com/in/amarjeetlinkedl/'
-            rel='noreferrer'
-            className='fab fa-linkedin'></a>
-          <a href='.' rel='noreferrer' className='fab fa-facebook-f'></a>
+            target="_blank"
+            href="https://www.linkedin.com/in/amarjeetlinkedl/"
+            rel="noreferrer"
+            className="fab fa-linkedin"
+          ></a>
+          <a href="." rel="noreferrer" className="fab fa-facebook-f"></a>
         </div>
       </section>
     </>
