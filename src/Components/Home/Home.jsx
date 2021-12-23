@@ -31,7 +31,7 @@ export const Home = () => {
           </p>
           <a
             className="btn"
-            href="https://drive.google.com/file/d/1EYxSh-yst_JJrB3fmycfWa0Q4ztExuLg/view"
+            href="https://drive.google.com/file/d/1W5JEU9O4C5CeCoMkC0GR6qHKwmSLQ3x9/view?usp=sharing"
             target="_blank"
           >
             Download CV
