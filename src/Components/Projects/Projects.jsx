@@ -157,7 +157,7 @@ export const Projects = () => {
                   className="icons-git"
                   target="_blank"
                   rel="noreferrer"
-                  href="https://github.com/sarangKaliyath/U2_Clone"
+                  href="https://github.com/sarangKaliyath/U3_V3.0"
                 >
                   <img
                     style={{ height: "100%", width: "100%" }}
